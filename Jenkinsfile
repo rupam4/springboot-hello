@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    JAVA_HOME = 'C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.14.7-hotspot'
+    JAVA_HOME = 'C:\\pleiades\\2023-12\\java\\17'
     PATH = "${JAVA_HOME}\\bin;${env.PATH}"
   }
 
