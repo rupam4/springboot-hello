@@ -8,7 +8,7 @@ public class HelloController {
 
 	@GetMapping("/")
 	public String home() {
-		return "Hello from Jenkins automation!!!!";
+		return "Hello from Jenkins automation!!!!!";
 	}
 
 	@GetMapping("/hello")
